@@ -2,6 +2,12 @@
 
 ### Description
 This is a sample program in which I have a input.txt file having some queries and answers for those queries are stored in output.txt
+You need gnuplot installed to be able to run this sample program.
+Try
+```
+$ gnuplot
+```
+If it is not intalled, install it first
 
 **Query Format:** Each line of input file corresponds to a query which is in the format: \<Operator\>\<SPACE\>(R1,C1)\<SPACE\>(R2,C2)
 Where Ri= Real part and Ci=Imaginary part of the complex number.
@@ -37,7 +43,7 @@ $ ./mainfile input.txt output.txt output.png
 
 ### Performace
 How well this complex library using bignum is slower than default complex library in "complex.h". Using long double complex using default complex lib can also work but it will be accurate only upto 19 decimal places.
-For the input.txt file given this is the plot
+For the input.txt given in this folder file given this is the plot
 
 ![Comparsion of complex implementation using mybignum vs default complex lib](https://i.imgur.com/dkDWKOF.png)
 
