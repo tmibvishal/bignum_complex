@@ -249,6 +249,7 @@ int main(int argc, char *argv[]) {
 
             printf("%s", dataToBeWrittenByDefault);
             printf("%s", dataToBeWritten);
+            fputs(dataToBeWrittenByDefault, outputFilePointer);
             fputs(dataToBeWritten, outputFilePointer);
         }
         fclose(inputFilePointer);
