@@ -2,3 +2,4 @@ cmake-build-debug
 CMakeLists.txt
 README for assignment.md
 example/output.txt
+.idea
