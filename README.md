@@ -139,7 +139,8 @@ An example program is in the example folder. You can check it.
     void print_complex(complexnum *ci);
     ```
     
-### Error
+### Errors
+Some of the functions can return error code depending on which you have to give the output. Here are all the error codes that can be returned.
 
 | Error Code | Error String | What can cause this error  |
 | ------------- |-------------| -----|
